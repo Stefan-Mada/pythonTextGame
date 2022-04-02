@@ -30,7 +30,7 @@ class GameState(Enum):
 
 
 class Story:
-    currentStorySegment = "intro"
+    currentStorySegment = "tutorial"
     currentStorySegmentPos = 0
     linesOfTheStory = json.load(open("story.json"))
     game_state = GameState(GameState.IN_GAME)
@@ -72,7 +72,9 @@ class Story:
             elif "input_new_story_pos" in current_line_info:
                 Story.currentStorySegment = current_line_info["input_new_story_pos"][user_input][0]
                 Story.currentStorySegmentPos = current_line_info["input_new_story_pos"][user_input][1]
-                return
+        elif "input_new_story_pos" in current_line_info and len(current_line_info["input_new_story_pos"]) == 1:
+            Story.currentStorySegment = current_line_info["input_new_story_pos"]["default"][0]
+            Story.currentStorySegmentPos = current_line_info["input_new_story_pos"]["default"][1]
 
         # no user input required here
         if "change_state" in current_line_info:
@@ -85,7 +87,8 @@ class Story:
                 Story.game_state = GameState.MENU
 
         if not Story.game_state == GameState.END:
-            Story.currentStorySegmentPos += 1
+            if "input_new_story_pos" not in current_line_info:
+                Story.currentStorySegmentPos += 1
             if "input_required" not in current_line_info:
                 process_input(True)
 

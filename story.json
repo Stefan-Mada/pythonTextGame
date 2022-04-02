@@ -1,4 +1,22 @@
 {
+  "tutorial":
+  [
+    {
+      "line": 0,
+      "text": "After a line of text appears, press enter to see the next line."
+    },
+    {
+      "line": 1,
+      "text": "Sometimes, you will have to make a choice. Type in an answer, then press enter."
+    },
+    {
+      "line": 2,
+      "text": "Good luck!",
+      "input_new_story_pos": {
+        "default": ["intro", 0]
+      }
+    }
+  ],
   "intro":
   [
     {
