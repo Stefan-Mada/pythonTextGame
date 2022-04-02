@@ -5,13 +5,14 @@
       "line": 0,
       "text": "What is your name?",
       "input_required": true,
+      "possible_inputs": ["Devon", "Theagenes", "Sophie", "Redcrosse"],
       "input_change_var": "player_name"
     },
     {
       "line": 1,
       "text": "Fight or die?",
       "input_required": true,
-      "possible_inputs": [  "fight",      "die"],
+      "possible_inputs": ["fight", "die"],
       "input_new_story_pos":   {
         "fight": ["part2", 0],
         "die": ["part3", 0]
@@ -22,7 +23,7 @@
   [
     {
       "line": 0,
-      "text": "You have slayed the evil monster."
+      "text": "You have slayed the evil monster, {player_name}."
     },
     {
       "line": 1,

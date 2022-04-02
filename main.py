@@ -14,7 +14,6 @@ def process_input(move_to_next_line):
         return user_input
 
 
-
 Player = {
     "Name": "No Name",
     "Health": 10,
@@ -47,7 +46,7 @@ class Story:
     @staticmethod
     def progress_story():
         current_line_info = Story.linesOfTheStory[Story.currentStorySegment][Story.currentStorySegmentPos]
-        print(current_line_info["text"])
+        print(current_line_info["text"].replace("{player_name}", Player["Name"]))
 
         if "input_required" in current_line_info:
             loop_until_correct_result = False
