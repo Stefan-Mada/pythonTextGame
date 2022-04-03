@@ -1,21 +1,11 @@
 {
   "tutorial":
   [
-    {
-      "text": "Welcome to the tutorial! Press enter to continue."
-    },
-    {
-      "text": "After a line of text appears, press enter to see the next line."
-    },
-    {
-      "text": "Sometimes, you will have to make a choice. Type in an answer, then press enter."
-    },
-    {
-      "text": "If you type \"stats\" or \"menu\", you can see your stats or go to the main menu."
-    },
-    {
-      "text": "Be aware that if you go back to the main menu, you will lose all your progress!"
-    },
+    {"text": "Welcome to the tutorial! Press enter to continue."},
+    {"text": "After a line of text appears, press enter to see the next line."},
+    {"text": "Sometimes, you will have to make a choice. Type in an answer, then press enter."},
+    {"text": "If you type \"stats\" or \"menu\", you can see your stats or go to the main menu."},
+    {"text": "Be aware that if you go back to the main menu, you will lose all your progress!"},
     {
       "text": "Good luck!",
       "input_new_story_pos": {
