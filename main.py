@@ -10,6 +10,8 @@ def process_input(move_to_next_line):
             tabs = "\t" * number_of_tabs
             print(f"{key}{tabs}: {value}")
         return process_input(move_to_next_line)
+    elif user_input == "menu":
+        Story.game_state = GameState.MENU
     elif not move_to_next_line:
         return user_input
 
@@ -93,9 +95,22 @@ class Story:
                 process_input(True)
 
 
-if __name__ == '__main__':
-    # menu stuff
-    Story.game_state = GameState.IN_GAME
+def handle_menu():
+    print("Welcome to the main menu!\n\t1. Start new game\n\t2. Exit\n")
+    user_input = input("Type the number of the option you wish to select, then press enter: ")
+    while user_input not in ("1", "2"):
+        user_input = input("That is not a valid option, please try again: ")
+    if user_input == "1":
+        Story.game_state = GameState.IN_GAME
+    elif user_input == "2":
+        Story.game_state = GameState.END
 
-    while Story.game_state is GameState.IN_GAME:
-        Story.progress_story()
+
+if __name__ == '__main__':
+    while Story.game_state != GameState.END:
+        handle_menu()
+
+        while Story.game_state is GameState.IN_GAME:
+            Story.progress_story()
+
+    print("Thank you for playing!")
