@@ -2,27 +2,21 @@
   "tutorial":
   [
     {
-      "line": 0,
       "text": "Welcome to the tutorial! Press enter to continue."
     },
     {
-      "line": 1,
       "text": "After a line of text appears, press enter to see the next line."
     },
     {
-      "line": 2,
       "text": "Sometimes, you will have to make a choice. Type in an answer, then press enter."
     },
     {
-      "line": 3,
       "text": "If you type \"stats\" or \"menu\", you can see your stats or go to the main menu."
     },
-        {
-      "line": 4,
+    {
       "text": "Be aware that if you go back to the main menu, you will lose all your progress!"
     },
     {
-      "line": 5,
       "text": "Good luck!",
       "input_new_story_pos": {
         "default": ["intro", 0]
@@ -32,14 +26,12 @@
   "intro":
   [
     {
-      "line": 0,
       "text": "What is your name?",
       "input_required": true,
       "possible_inputs": ["Devon", "Theagenes", "Sophie", "Redcrosse"],
       "input_change_var": "player_name"
     },
     {
-      "line": 1,
       "text": "Fight or die?",
       "input_required": true,
       "possible_inputs": ["fight", "die"],
@@ -52,11 +44,9 @@
   "part2":
   [
     {
-      "line": 0,
       "text": "You have slayed the evil monster, {player_name}."
     },
     {
-      "line": 1,
       "text": "You continue onto your next journey.",
       "change_state": "END"
     }
@@ -64,7 +54,6 @@
   "part3":
   [
     {
-      "line": 1,
       "text": "You have died.",
       "change_state": "END"
     }
