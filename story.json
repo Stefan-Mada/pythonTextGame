@@ -33,9 +33,7 @@
   ],
   "part2":
   [
-    {
-      "text": "You have slayed the evil monster, {player_name}."
-    },
+    {"text": "You have slayed the evil monster, {player_name}."},
     {
       "text": "You continue onto your next journey.",
       "change_state": "END"
