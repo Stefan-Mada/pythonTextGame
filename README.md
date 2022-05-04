@@ -15,22 +15,18 @@ Once downloaded, you must unzip the file. On Mac, simply double-clicking
 a zip file will typically do this. Then, you must double-click the
 `runGame.command` file in order to run the game.
 
-There are several possible issues that can occur that I can not directly
-address, as mac comes with different software depending on the version
-of the operating system, and therefore runs slightly differently. I have made
-a variety of files that should be able to address most scenarios, however. If
-`runGame.command` does not work, go inside the `additional_scripts` folder
-and try running `runGame2.command`. If that does not work, try running
-`runGame3.command`. If it still does not work, run `install_python.command`
-and follow the prompts. If this file does not run properly, try `install_python2.command`.
-After this, run all of the runGame commands one more time. If it still does not
-work, please reach out to me immediately to resolve this.
-
-Once one of the game running files works, please use that specific file
-to continue starting up the game.
+If this command says something along the lines of `python3 not found`, or
+something similar, please download [this file](https://www.python.org/ftp/python/3.10.4/python-3.10.4-macos11.pkg),
+which is the python installer for Mac OS. Then install python using this file.
+If after installing this file, the game still does not run, please contact me
+as soon as possible.
 
 ## Possible issues
 When attempting to run the file, the operating system attempts to protect
 the user from malicious code, and will often not let you run files from 
 untrusted sources. I promise my code is safe, so please enable the code to
 run, despite the operating system trying to protect you.
+
+### Other contributors
+Very thankful for my girlfriend testing my game to make sure it runs on a Mac,
+as I myself don't have one to test it.
