@@ -1,12 +1,13 @@
-# Python Text Game [name todo]
+# Deus Ex Chamuel
 Interactive Text Game for Honors 2103.
 
-Some sort of meta attempted comedy on the Romance genre, starring characters from a ride array of places....
+Some sort of meta comedy on the Romance genre, starring characters from a ride array of places....
 
-## Where to download
-To download this game, you must either have downloaded a ZIP file from
-some source, such as an assignment submission, or you can download it from
-the GitHub repository [here](https://github.com/Stefan-Mada/pythonTextGame). 
+## How to download
+To download this game, you must download it from [this link](https://github.com/Stefan-Mada/pythonTextGame/archive/refs/heads/master.zip).
+
+
+If that does not work, go to the GitHub repository [here](https://github.com/Stefan-Mada/pythonTextGame). 
 Navigate to the green "Code" button roughly in the top right of the main
 page, click on it, and click "Download ZIP."
 

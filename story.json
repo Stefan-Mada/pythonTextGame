@@ -296,7 +296,7 @@
     {"text": "Chamuel - You have all made a bold decision. I will pray for your well being for the rest of your lives."},
     {"text": "Chamuel suddenly disappears, and everyone around you slowly fades away into the void around you. Your finally lose track of your senses."},
     {"text": "You come to, and find yourself in your bed at home. Was it truly a dream?"},
-    {"text": "You sit for awhile, still taking everything that happened in."},
+    {"text": "You sit for awhile, still taking everything that happened."},
     {"text": "You remember that you can check to see if it was a dream! You quickly pull out your laptop and google ‘An Ethiopian Romance.’"},
     {"text": "You are surprised to see less than 30,000 results. You look up the other works."},
     {"text": "All of them have such low results… you can’t find anything related to the texts whatsoever either! The results are simply from other things."},
@@ -314,6 +314,37 @@
   ],
   "path_ending":
   [
-    {"text": ""}
+    {"text": "Chamuel - I will respect your decision."},
+    {"text": "Chamuel - Now, it is time for the rest of your decisions!"},
+    {"text": "Devon - I… I need a moment."},
+    {"text": "Theagenes - I am awestruck in this moment. It… is difficult."},
+    {"text": "Redcrosse - I hereforth follow thy purpose, to provide England with a saint to live by! I continue!"},
+    {"text": "Devon - I… I too shall choose this path. I just want things to work out, and that kind of death… I do not need to run from it."},
+    {"text": "Theagenes - I can not believe all of thee and thy decisions. Yet, there is a strange allure to following the path..."},
+    {"text": "Chamuel - Indeed, knowing that you will be happy in the end is an impossible allure."},
+    {"text": "Theagenes - But it is not quite living."},
+    {"text": "Chamuel - That is so."},
+    {"text": "Theagenes - …"},
+    {"text": "Theagenes - I…"},
+    {"text": "Theagenes - I owe it to the gods to fulfil my fate. I shall continue henceforth, through storms or waves, on this path."},
+    {"text": "Chamuel - I will respect your decisions. You have been provided with the warning. Now, there is no excuse for how you continue your lives. I will pray for your stories for the rest of your lives."},
+    {"text": "Chamuel suddenly disappears, and everyone around you slowly fades away into the void around you. Your finally lose track of your senses."},
+    {"text": "You come to, and find yourself exactly where you had just been before the entire ordeal, trying to escape your class to go home quickly!"},
+    {"text": "On your drive home, you stare blankly for great periods of time, taking everything that happened."},
+    {"text": "When you get home, you pull out your laptop and google ‘An Ethiopian Romance.’"},
+    {"text": "You are not surprised to see over 38,000,000 results. You look up the other works."},
+    {"text": "All of them are still there."},
+    {"text": "You realize that nothing has changed."},
+    {"text": "You can’t tell if it was a dream."},
+    {"text": "You can’t tell if the choice was truly offered to you."},
+    {"text": "Can you choose your own path?"},
+    {"text": "Can you break free?"},
+    {"text": "At that moment, you walk out of your room, and into your kitchen."},
+    {"text": "Your stove is on."},
+    {"text": ""},
+    {
+      "text": "THE END.",
+      "change_state": "END"
+    }
   ]
 }
