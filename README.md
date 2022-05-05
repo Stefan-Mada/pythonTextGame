@@ -28,6 +28,11 @@ the user from malicious code, and will often not let you run files from
 untrusted sources. I promise my code is safe, so please enable the code to
 run, despite the operating system trying to protect you.
 
+## Other Points of Interest
+
 ### Other contributors
 Very thankful for my girlfriend testing my game to make sure it runs on a Mac,
 as I myself don't have one to test it.
+
+### Miscellaneous Items
+This game took a surprising `23` hours to create!
