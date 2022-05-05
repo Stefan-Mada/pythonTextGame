@@ -85,7 +85,7 @@
     {"text": "You just can not tell if this is a dream, seeing a cast of fictional Romance characters right before your eyes."},
     {"text": "Trying to save some dignity, you speak a pressing concern on your mind, 'Should we not figure out what has happened to us?'"},
     {
-      "text": "Devon - That too I am most curious about, this land seems wholly unfamiliar.",
+      "text": "Theagenes - That too I am most curious about, this land seems wholly unfamiliar.",
       "input_new_story_pos": {
         "default": ["conundrum", 0]
       }
@@ -128,7 +128,7 @@
     {"text": "You just can not tell if this is a dream, seeing a cast of fictional Romance characters right before your eyes."},
     {"text": "Trying to grasp the situation, you speak a pressing concern on your mind, 'Should we not figure out what has happened to us?'"},
     {
-      "text": "Devon - That too I am most curious about, this land seems wholly unfamiliar.",
+      "text": "Theagenes - That too I am most curious about, this land seems wholly unfamiliar.",
       "input_new_story_pos": {
         "default": ["conundrum", 0]
       }
@@ -168,7 +168,7 @@
     {"text": "You just can not tell if this is a dream, seeing a cast of fictional Romance characters right before your eyes."},
     {"text": "Trying to grasp the situation, you speak a pressing concern on your mind, 'Should we not figure out what has happened to us?'"},
     {
-      "text": "Devon - That too I am most curious about, this land seems wholly unfamiliar.",
+      "text": "Theagenes - That too I am most curious about, this land seems wholly unfamiliar.",
       "input_new_story_pos": {
         "default": ["conundrum", 0]
       }
