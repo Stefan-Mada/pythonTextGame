@@ -31,3 +31,6 @@ run, despite the operating system trying to protect you.
 ### Other contributors
 Very thankful for my girlfriend testing my game to make sure it runs on a Mac,
 as I myself don't have one to test it.
+
+### Miscellaneous Items
+This game took a surprising `23` hours to create!
