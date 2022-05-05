@@ -15,6 +15,42 @@
   ],
   "intro":
   [
+    {"text": "It is another beautiful, exciting day. You are once again teaching a class of wonderful students."},
+    {"text": "You are absolutely delighted to see that only half of your enrolled students have once again deigned to grace you with their presence."},
+    {"text": "You put this fact behind you, and continue your lecture, but something is nagging at the back of your mind...."},
+    {"text": "Oh no! You've made a terrible mistake! Your stove is still on at home! With this at the forefront of your mind, you attempt to skillfully escape your classroom."},
+    {"text": "Suddenly, an explosion rings out! You lose track of yourself and where you are, discombobulated by the magnitude of the force."},
+    {"text": "You struggle to maintain your focus, as your vision becomes a dark, closing tunnel...."},
+    {"text": "The next moment, you feel a damp substance under your hands."},
+    {"text": "You open your eyes, and see that you have fallen face first onto a muddy patch of grass."},
+    {"text": "What an unfortunate circumstance to be in! Thank goodness no one is around to see this..."},
+    {"text": "??? - What a terrible state I find thee in, traveler from a strange land. Tell me then, wherefore you hail from, and what led thee to such an appearance?"},
+    {
+      "text": "You do not know what to say of the current circumstances, but circumstance requires your answer. What led to this issue:\n",
+      "input_required": true
+    },
+    {"text": "??? - Thy story falls well on my ear traveler, yet I can not say that I understand what it is you mean. No matter, I too am astounded by fate..."},
+    {"text": "??? - Let me tell of you my circumstances, so that we may share a bond in our company. I hail from Thessaly, and I..."},
+    {"text": "??? - ...Delphi, and we made haste away from..."},
+    {"text": "??? - ... when suddenly, we were onset by pirates. I fought valiantly..."},
+    {"text": "You begin to get exhausted. How can he possibly have so much to say? After a seeming eternity..."},
+    {"text": "??? - And that concludes the circumstances of my arrival to this strange dwelling place. Ah, my name is Theagenes. Forgive my negligence in offering thee my name."},
+    {"text": "Now things are starting to make sense."},
+    {"text": "NO they are NOT. Wasn't this the protagonist of An Ethiopian Romance? What the devil is he doing here, enjoying your muddied look while giving such long exposition...."},
+    {"text": "You decide to give him a piece of your mind, but suddenly, you both notice movement around you!"},
+    {"text": "Two hands rise out of the mud!! Then another two!"},
+    {
+      "text": "Do you [run], [kick] them, or do [nothing]?",
+      "input_required": true,
+      "possible_inputs": ["run", "kick", "nothing"],
+      "input_new_story_pos":   {
+        "run": ["intro_run", 0],
+        "kick": ["intro_kick", 0],
+        "nothing": ["intro_nothing", 0]
+      }
+    },
+
+
     {
       "text": "What is your name?",
       "input_required": true,
@@ -30,6 +66,32 @@
         "die": ["part3", 0]
       }
     }
+  ],
+  "intro_run":
+  [
+    {"text": "You run as quickly as possible, but the uneven terrain gets the best of you. You fall face first into the mud again."},
+    {"text": "Did you deserve this? Is this just fate? Is this just fortune? Which is it??"},
+    {"text": "While you fall into deep confusion, Theagenes has bared his knuckles for a fight."},
+    {"text": "The hands push themselves out of the ground, revealing two bodies!"},
+    {"text": "One of them pulls themselves out, caked in mud. They seem to be wearing a dirty eyepatch, and they appear confused at Theagenes."},
+    {"text": "??? - That's the last time I'm wearing a f***ing eyepatch, this doesn't just happen."},
+    {"text": "Theagenes - What manner of spirit are thee you evil abomination? Speak now so that thee's soul can rest eternally...."},
+    {"text": "At that very moment, the other body launches itself out at an absurd velocity. They appear to be wearing a set of plate armor...."},
+    {"text": "Plate armor man - Now now Sir, "}
+
+
+
+
+
+
+  ],
+  "intro_kick":
+  [
+    {"text": "It is another beautiful, exciting day. You are once again teaching a class of wonderful students."}
+  ],
+  "intro_nothing":
+  [
+    {"text": "It is another beautiful, exciting day. You are once again teaching a class of wonderful students."}
   ],
   "part2":
   [
