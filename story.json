@@ -87,7 +87,7 @@
     {
       "text": "Devon - That too I am most curious about, this land seems wholly unfamiliar.",
       "input_new_story_pos": {
-        "default": ["intro_continued", 0]
+        "default": ["conundrum", 0]
       }
     }
   ],
@@ -130,7 +130,7 @@
     {
       "text": "Devon - That too I am most curious about, this land seems wholly unfamiliar.",
       "input_new_story_pos": {
-        "default": ["intro_continued", 0]
+        "default": ["conundrum", 0]
       }
     }
   ],
@@ -155,7 +155,7 @@
     {"text": "Devon then takes off his eyepatch and throws it viciously away, mumbling something about a cat or something. He thens spots you."},
     {"text": "Devon - Pray, who is this person unfazed entirely by this bizarre set of circumstances?"},
     {"text": "Theagenes - They hail by..., uhm, I have forgotten my manners and didn't inquire of thy name, but I can tell thee are a mentor of the utmost caliber!"},
-    {"text": "Devon - Did I see correctly thay they simply stood there watching this unfold?"},
+    {"text": "Devon - Did I see correctly that they simply stood there watching this unfold?"},
     {"text": "Theagenes - Assuredly so."},
     {"text": "Redcrosse - Bizarre ye are, watcher of thee unknown."},
     {
@@ -170,11 +170,122 @@
     {
       "text": "Devon - That too I am most curious about, this land seems wholly unfamiliar.",
       "input_new_story_pos": {
-        "default": ["intro_continued", 0]
+        "default": ["conundrum", 0]
       }
     }  ],
-  "intro_continued":
+  "conundrum":
   [
-    {"text": "It is strange, {player_name}."}
+    {"text": "Devon - It is strange that we are here."},
+    {"text": "Redcrosse - The times doest mightie confuse I."},
+    {"text": "Theagenes - ... yes, I was progressing in my quest to marry Chariclea when I appeared here!"},
+    {"text": "Devon - And I to marry Merry!"},
+    {"text": "Redcrosse - And I to fight a dragon!"},
+    {"text": "They all then stare at me.\nDevon -\t\t Pray, what is your quest?\nRedcrosse -\t Pray, what art thy quest?\nTheagenes -\t Pray, what is thee quest?"},
+    {"text": "I didn't really seem to be in the middle of some quest...."},
+    {"text": "Devon - Your lack of response seems to indicate that you weren't quite in the middle of something."},
+    {"text": "Theagenes - This indeed appeareth to be strange circumstances for us, and stranger yet for you."},
+    {"text": "Devon - So where are we?"},
+    {"text": "In this moment, you begin taking in your surroundings more carefully."},
+    {"text": "It is a large, grassy field with rolling hills in the distance. The sun is beaming between the moderate cloud cover above, revealing the beautiful blue sky."},
+    {"text": "The world around you looks picturesque, with only the area directly around the group being muddy and wet."},
+    {"text": "It reminds you of the English country side, fitting for some of the strange cast with you."},
+    {"text": "Yet, something doesn't quite look convincing about the environment around you. You can't quite put your finger on it...."},
+    {"text": "Redcrosse - What seems that in the ayre above?"},
+    {"text": "You take a look up, and see a shadow appearing out of the sun. You squint your eyes and see a figure quickly approaching!"},
+    {"text": "Devon & Theagenes - What in oblivion?"},
+    {"text": "The figure appears before you in all its glory, but you have never seen such an alien and terrifying sight."},
+    {"text": "You see a torso surrounded by six sets of wings, three black and three white, dancing around the figure in an untraceable pattern."},
+    {"text": "Above the head you see what appears to be a gyroscope rotating above their heads, yet each ring is made of piercing eyes, looking in every direction at once."},
+    {"text": "Inside the rings of eyes lies a beating heart, pumping viciously, with each contraction expelling a spurt of blood, with a seemingly endless reservoir."},
+    {"text": "In short, you are assuredly in a nightmare."},
+    {"text": "Redcrosse inexplicably begins kneeling."},
+    {"text": "Redcrosse - Fayre goddesse that doest grace us with thy presence, what brings thy servant of God?"},
+    {"text": "Theagenes - That a servant of God? It is absolutely monstrous, and nothing Zeus would provide for our world!"},
+    {"text": "Devon - I have to agree with Theagenes, this is the most wicked thing I have ever seen. If we don't fight back, we may never finish our journeys again."},
+    {"text": "??? - s i l e n c e. y o u   d o   n o t   y e t    k n o w   t h e   t r u t h."},
+    {"text": "Devon - Please speak a little more normally, I am having enough issues understanding these people around me."},
+    {"text": "??? - Very well. I shall grant your request."},
+    {"text": "Deciding to try your hand at communication with this being, you ask, 'what are you?'"},
+    {"text": "??? - I am the heavenly embodiment of Romance, the Archangel Chamuel, and I have brought you all here today to make a choice."},
+    {"text": "Theagenes - To strangers you bring a choice, but what reason guides you to do so?"},
+    {"text": "Chamuel - I see your futures are marked with a grave danger, and ye do not understand the severity of the situation."},
+    {"text": "Devon - I need not understand this danger presently, I need to find Merry! Pray, is this England? I must make haste immediately if so."},
+    {"text": "Chamuel - You do not quite understand. This is both England and not England. In fact, this is both everywhere and nowhere."},
+    {"text": "Suddenly, the distant plains seem to come undone, like the four walls and the ceiling of a room being pulled apart, so too are the distant verandas and sky seeming to be rearranged. A black void can be seen inbetween the pieces, as even the floor seems to be cast away."},
+    {"text": "Chamuel - This place is wherever I want it to be."},
+    {"text": "Finally, the room was completely undone, where vast rolling hills used to extend only the dark, sticky void remains. With us, and that thing in it."},
+    {"text": "Redcrosse can be seen fervently praying, seeming to not be addressing the situation in any other way."},
+    {"text": "Theagenes - By... by the gods.... May Neptune, giving quiet passage, bear me company and and be my guide."},
+    {"text": "Devon is unable to muster a response."},
+    {"text": "You are speechless."},
+    {"text": "Chamuel - You are all on a journey, a quest to accomplish something."},
+    {"text": "Chamuel - You are all in a Romance."},
+    {"text": "You seem particularly confused by this statement, as you certainly were not involved in anything of the kind."},
+    {"text": "Theagenes - I... I understand, yet I do not understand what you are trying to warn us of? Of our deaths?"},
+    {"text": "Chamuel - Precisely. Your deaths may soon be upon you. But not of your flesh and blood, but of something more essential."},
+    {"text": "Devon - What could be more essential than the lives we maintain on this Earth?"},
+    {"text": "Chamuel - Your very existence. It is distinct."},
+    {"text": "Chamuel - You all... Redcrosse, could you stop praying, your God has sent ME in response to your prayers, look UP."},
+    {"text": "Redcrosse finally looks up, but with an unbelievable glint and shine in his eyes."},
+    {"text": "Redcrosse - Fayre angel, this sinner hath awaited thee, striketh me for all my transgressions."},
+    {"text": "Chamuel - ..."},
+    {"text": "Chamuel - I have not come as the Judge today, Redcrosse, but as the Messenger. Pay close mind."},
+    {"text": "Chamuel - Do you realize how much you all have in common?"},
+    {"text": "Everyone shakes their head, feeling they couldn't be more different, especially you!"},
+    {"text": "Chamuel - Theagenes, you are in love with Chariclea, and wish to marry her, and are on a great quest to accomplish this."},
+    {"text": "Chamuel - Devon, you are in love with Merry, and wish to marry her, and are on a great quest to accomplish this."},
+    {"text": "Chamuel - Redcrosse, you are on a quest to conquer a dragon, and will eventually seek to wed Una."},
+    {"text": "Redcrosse - Ne let it seeme that I knoweth of this."},
+    {"text": "Chamuel - Ahh, perhaps you are not aware of it yet."},
+    {"text": "Chamuel - {player_name}, you are, ah, I shouldn't make the same mistake."},
+    {"text": "Devon - So we are similar, we figured that for the most part, but that doesn’t seem to be the issue."},
+    {"text": "Chamuel - In fact, it is the root of the issue."},
+    {"text": "Chamuel - You all abide by a shared set of rules, guiding you to the end."},
+    {"text": "Chamuel - By the very nature of the stories you all ‘exist’ in, you are assured a happy ending."},
+    {"text": "Chamuel - There is not a doubt about the conclusion, merely the approach to that conclusion."},
+    {"text": "Theagenes - This seemeth to be happy news."},
+    {"text": "Chamuel - This is good news for your ending, indeed. But do you not question why things always seem to continue working out for you, despite endless setbacks?"},
+    {"text": "Devon - I did wonder why Merry always seems to be near me despite me being… me."},
+    {"text": "Chamuel - You are bound by your stories, and the times you were written into existence."},
+    {"text": "You have never been more confused in your life, not even when you were forced to take Physics 1 in college. Is your story written? What could this mean?"},
+    {"text": "Chamuel - Theagenes, do you ever wonder why your love for Chariclea was so immediate? And why you never doubted it, no matter how dangerous or extreme the situations you entered was?"},
+    {"text": "Chamuel - Your times demanded that your love was unquestioned, for once you entered the quest, you entered a new world entirely."},
+    {"text": "Chamuel - Redcrosse, did you never question the unending support and assistance of Una, and your duty in that world?"},
+    {"text": "Chamuel - You were required to be the light guiding the English faith, the paragon of virtue, to guide England to glory."},
+    {"text": "Chamuel - Devon, do you wonder how a wicked man could attract such an innocent girl like Merry?"},
+    {"text": "Chamuel - You were simply required to fulfill a love fantasy, of a powerful, wicked pirate who was also a nobleman."},
+    {"text": "Chamuel - It is not really you who had control of the situation, but the situation that controlled you."},
+    {"text": "Silence descended for several seconds. No one was sure of what to say."},
+    {"text": "Theagenes - Is it so bad? We still get what we most want in our lives."},
+    {"text": "Chamuel - You live for what someone else wants for you. That is not a free life."},
+    {"text": "Redcrosse - Credence this exceeded, God provideth freedome of will, this ne freedome."},
+    {"text": "But… what is this about the death of our existence? They don’t seem to be so related."},
+    {"text": "Chamuel - Your stories are obscure. Your stories will soon become lost to time. Read perhaps by a few people a year, until eventually, nothing is left. Now you are immortal, your essence flowing through generations. But once the last reader has gone by, your legacy ends with whimper, and that, indeed, is the End of your existence."},
+    {"text": "No one has anything to say. It is a reality one is never prepared to hear of."},
+    {"text": "Devon - Then… what could we possibly do to escape this death?"},
+    {"text": "Chamuel - You must make a choice, a choice only one enlightened to see the danger can make."},
+    {"text": "Chamuel - Shall you continue the path ahead, that which is written for you, and continue to its conclusion? Or shall you choose to break free from the confines of the path, choose your own destiny, and have your story disappear, but your existence be so much fuller because of it?"},
+    {"text": "You, unable to hold yourself back any longer, asks what has been on your mind, ‘what does this have to do with me? I am not in a journey like these people, I don’t have a quest like them, was I pulled in here by mistake?"},
+    {"text": "All of your recent brothers in arms nod their heads, also confused on why you are there."},
+    {"text": "Chamuel - Ah, it must be hard for you to see the similarities between you and them. But you are indeed on a quest of your own, if you truly look inside. You too are on a journey on a path set forth before you. "},
+    {"text": "Chamuel - But your journey is not finished! The author has not yet put down the pen for you yet, and this gives you a chance that these other poor souls don’t have."},
+    {"text": "Chamuel - Is what you’re doing really what you want to do? Is this really what it’s all cracked up to be? Are you sure you want to go down this path? The author will happily continue your story for you, or you can choose the path yourself."},
+    {
+      "text": "Chamuel - So, what is your decision {player_name}? Do you wish to break free from the confines of the path? [yes] [no]",
+      "input_required": true,
+      "possible_inputs": ["yes", "no"],
+      "input_new_story_pos":   {
+        "yes": ["free_ending", 0],
+        "no": ["path_ending", 0]
+      }
+    }
+  ],
+  "free_ending":
+  [
+    {"text": "Devon - It is strange that we are here."}
+  ],
+  "path_ending":
+  [
+    {"text": "Devon - It is strange that we are here."}
   ]
 }
