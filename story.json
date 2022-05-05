@@ -48,64 +48,133 @@
         "kick": ["intro_kick", 0],
         "nothing": ["intro_nothing", 0]
       }
-    },
-
-
-    {
-      "text": "What is your name?",
-      "input_required": true,
-      "possible_inputs": ["Devon", "Theagenes", "Sophie", "Redcrosse"],
-      "input_change_var": "player_name"
-    },
-    {
-      "text": "Fight or die?",
-      "input_required": true,
-      "possible_inputs": ["fight", "die"],
-      "input_new_story_pos":   {
-        "fight": ["part2", 0],
-        "die": ["part3", 0]
-      }
     }
   ],
   "intro_run":
   [
     {"text": "You run as quickly as possible, but the uneven terrain gets the best of you. You fall face first into the mud again."},
-    {"text": "Did you deserve this? Is this just fate? Is this just fortune? Which is it??"},
+    {"text": "Did you deserve this? Is this just fate? Is this just fortune?"},
+    {"text": "Actually what IS it indeed?"},
     {"text": "While you fall into deep confusion, Theagenes has bared his knuckles for a fight."},
     {"text": "The hands push themselves out of the ground, revealing two bodies!"},
     {"text": "One of them pulls themselves out, caked in mud. They seem to be wearing a dirty eyepatch, and they appear confused at Theagenes."},
     {"text": "??? - That's the last time I'm wearing a f***ing eyepatch, this doesn't just happen."},
     {"text": "Theagenes - What manner of spirit are thee you evil abomination? Speak now so that thee's soul can rest eternally...."},
     {"text": "At that very moment, the other body launches itself out at an absurd velocity. They appear to be wearing a set of plate armor...."},
-    {"text": "Plate armor man - Now now Sir, "}
-
-
-
-
-
-
+    {"text": "Plate armor man - Now now Sir, I shall strike ye feend!"},
+    {"text": "Theagenes - ???"},
+    {"text": "??? eyepatch - This is getting absurd. Hold yourself back you strange knight, I am the Duke of England, Devon!"},
+    {"text": "Plate armor man - Ye a Duke, your excellent selfe appeare unfit for the taske! I do not believe ye, as England is a far holier place than thou."},
+    {"text": "Plate armor man - Whereto I be distant saint of England, I, Redcrosse Knight, shall cleanse all sin from England!"},
+    {"text": "Theagenes - Do thee strange men desire a fight of the fists? I can not make heads or tails of your intentions."},
+    {"text": "Redcrosse - For dread of that huge feend, I desire only salvation."},
+    {"text": "Devon - I really can't decipher your words, 'saint,' but I really just want to get out of this ordeal."},
+    {"text": "Devon then takes off his eyepatch and throws it viciously away, mumbling something about a cat or something. He thens spots you."},
+    {"text": "Devon - Pray, who is this person covered in copious amounts of mud?"},
+    {"text": "Theagenes - They hail by..., uhm, I have forgotten my manners and didn't inquire of thy name, but I can tell thee are a mentor of the utmost caliber!"},
+    {"text": "Devon - Did I see correctly that they ran away the moment we tried to free ourselves?"},
+    {"text": "Theagenes - Assuredly so."},
+    {"text": "Redcrosse - Cowarde ye are, afraid of thee unknown."},
+    {
+      "text": "Theagenes - What is your name, oh muddied one? [enter your name]",
+      "input_required": true,
+      "input_change_var": "player_name"
+    },
+    {"text": "Devon - {player_name}, what a fitting name for someone like thee."},
+    {"text": "You are utterly confused an exhausted at the situation, wondering what God above punished you so."},
+    {"text": "You just can not tell if this is a dream, seeing a cast of fictional Romance characters right before your eyes."},
+    {"text": "Trying to save some dignity, you speak a pressing concern on your mind, 'Should we not figure out what has happened to us?'"},
+    {
+      "text": "Devon - That too I am most curious about, this land seems wholly unfamiliar.",
+      "input_new_story_pos": {
+        "default": ["intro_continued", 0]
+      }
+    }
   ],
   "intro_kick":
   [
-    {"text": "It is another beautiful, exciting day. You are once again teaching a class of wonderful students."}
+    {"text": "You kick the hands rising up with a great deal of force."},
+    {"text": "However, this just seems to make them more desperate to rise up!"},
+    {"text": "While you kick with reckless abandon, Theagenes is somewhat astonished."},
+    {"text": "Theagenes - What leadeth to you being a warrior of such noble birth? My spirit is lightened by this sight!"},
+    {"text": "The hands desperately push themselves out of the ground, revealing two bodies!"},
+    {"text": "One of them pulls themselves out, caked in mud. They seem to be wearing a dirty eyepatch, and they appear confused at Theagenes."},
+    {"text": "Seeing that they are not undead horrors like you imagined, you cease your relentless assault."},
+    {"text": "??? - That's the last time I'm wearing a f***ing eyepatch, who just kicks a hand coming out of the ground? That ****** hurt!"},
+    {"text": "Theagenes - What manner of spirit are thee you evil abomination? Speak now so that thee's soul can rest eternally...."},
+    {"text": "At that very moment, the other body launches itself out at an absurd velocity. They appear to be wearing a set of plate armor...."},
+    {"text": "That explains why your kicks hurt so dearly against those set of hands...."},
+    {"text": "Plate armor man - Now now Sir, I shall strike ye feend!"},
+    {"text": "Theagenes - ???"},
+    {"text": "??? eyepatch - This is getting absurd. Hold yourself back you strange knight, I am the Duke of England, Devon!"},
+    {"text": "Plate armor man - Ye a Duke, your excellent selfe appeare unfit for the taske! I do not believe ye, as England is a far holier place than thou."},
+    {"text": "Plate armor man - Whereto I be distant saint of England, I, Redcrosse Knight, shall cleanse all sin from England!"},
+    {"text": "Theagenes - Do thee strange men desire a fight of the fists? I can not make heads or tails of your intentions."},
+    {"text": "Redcrosse - For dread of that huge feend, I desire only salvation."},
+    {"text": "Devon - I really can't decipher your words, 'saint,' but I really just want to get out of this ordeal."},
+    {"text": "Devon then takes off his eyepatch and throws it viciously away, mumbling something about a cat or something."},
+    {"text": "Devon - Pray, who is this person who viciously assaulted us?"},
+    {"text": "Theagenes - They hail by..., uhm, I have forgotten my manners and didn't inquire of thy name, but I can tell thee are a mentor of the utmost caliber!"},
+    {"text": "Devon - They a mentor? They are more closely in line with a brute to attack so presumptuously!"},
+    {"text": "Theagenes - Assuredly so, but they have great wit."},
+    {"text": "Redcrosse - Bolde ye are, fighter of the unknown."},
+    {
+      "text": "Theagenes - What is your name, oh vicious one? [enter your name]",
+      "input_required": true,
+      "input_change_var": "player_name"
+    },
+    {"text": "Devon - {player_name}, what a fitting name for someone like thee."},
+    {"text": "You are utterly confused an exhausted at the situation, wondering what God above punished you so."},
+    {"text": "You just can not tell if this is a dream, seeing a cast of fictional Romance characters right before your eyes."},
+    {"text": "Trying to grasp the situation, you speak a pressing concern on your mind, 'Should we not figure out what has happened to us?'"},
+    {
+      "text": "Devon - That too I am most curious about, this land seems wholly unfamiliar.",
+      "input_new_story_pos": {
+        "default": ["intro_continued", 0]
+      }
+    }
   ],
   "intro_nothing":
   [
-    {"text": "It is another beautiful, exciting day. You are once again teaching a class of wonderful students."}
-  ],
-  "part2":
-  [
-    {"text": "You have slayed the evil monster, {player_name}."},
+    {"text": "You stand your ground, holding your head high above all before you."},
+    {"text": "Does this seem prudent? Is this really the right decision?"},
+    {"text": "While you fall into deep confusion, Theagenes is in awe of your stoicism."},
+    {"text": "The hands push themselves out of the ground, revealing two bodies!"},
+    {"text": "One of them pulls themselves out, caked in mud. They seem to be wearing a dirty eyepatch, and they appear confused at Theagenes."},
+    {"text": "??? - That's the last time I'm wearing a f***ing eyepatch, this doesn't just happen."},
+    {"text": "Theagenes - What manner of spirit are thee you evil abomination? Speak now so that thee's soul can rest eternally...."},
+    {"text": "At that very moment, the other body launches itself out at an absurd velocity. They appear to be wearing a set of plate armor...."},
+    {"text": "Plate armor man - Now now Sir, I shall strike ye feend!"},
+    {"text": "Theagenes - ???"},
+    {"text": "??? eyepatch - This is getting absurd. Hold yourself back you strange knight, I am the Duke of England, Devon!"},
+    {"text": "Plate armor man - Ye a Duke, your excellent selfe appeare unfit for the taske! I do not believe ye, as England is a far holier place than thou."},
+    {"text": "Plate armor man - Whereto I be distant saint of England, I, Redcrosse Knight, shall cleanse all sin from England!"},
+    {"text": "Theagenes - Do thee strange men desire a fight of the fists? I can not make heads or tails of your intentions."},
+    {"text": "Redcrosse - For dread of that huge feend, I desire only salvation."},
+    {"text": "Devon - I really can't decipher your words, 'saint,' but I really just want to get out of this ordeal."},
+    {"text": "Devon then takes off his eyepatch and throws it viciously away, mumbling something about a cat or something. He thens spots you."},
+    {"text": "Devon - Pray, who is this person unfazed entirely by this bizarre set of circumstances?"},
+    {"text": "Theagenes - They hail by..., uhm, I have forgotten my manners and didn't inquire of thy name, but I can tell thee are a mentor of the utmost caliber!"},
+    {"text": "Devon - Did I see correctly thay they simply stood there watching this unfold?"},
+    {"text": "Theagenes - Assuredly so."},
+    {"text": "Redcrosse - Bizarre ye are, watcher of thee unknown."},
     {
-      "text": "You continue onto your next journey.",
-      "change_state": "END"
-    }
-  ],
-  "part3":
-  [
+      "text": "Theagenes - What is your name, oh strange one? [enter your name]",
+      "input_required": true,
+      "input_change_var": "player_name"
+    },
+    {"text": "Devon - {player_name}, what a fitting name for someone like thee."},
+    {"text": "You are utterly confused an exhausted at the situation, wondering what God above punished you so."},
+    {"text": "You just can not tell if this is a dream, seeing a cast of fictional Romance characters right before your eyes."},
+    {"text": "Trying to grasp the situation, you speak a pressing concern on your mind, 'Should we not figure out what has happened to us?'"},
     {
-      "text": "You have died.",
-      "change_state": "END"
-    }
+      "text": "Devon - That too I am most curious about, this land seems wholly unfamiliar.",
+      "input_new_story_pos": {
+        "default": ["intro_continued", 0]
+      }
+    }  ],
+  "intro_continued":
+  [
+    {"text": "It is strange, {player_name}."}
   ]
 }
