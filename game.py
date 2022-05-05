@@ -96,7 +96,7 @@ class Story:
 
 
 def handle_menu():
-    print("Welcome to the main menu!\n\t1. Start new game\n\t2. Exit\n")
+    print("Welcome to the main menu of Deus Ex Chamuel!\n\t1. Start new game\n\t2. Exit\n")
     user_input = input("Type the number of the option you wish to select, then press enter: ")
     while user_input not in ("1", "2"):
         user_input = input("That is not a valid option, please try again: ")
