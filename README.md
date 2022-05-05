@@ -36,3 +36,6 @@ as I myself don't have one to test it.
 
 ### Miscellaneous Items
 This game took a surprising `23` hours to create!
+
+The `story.json` file contains all the text used in the story! If written out in double-spaced
+Times New Roman 12pt font, it takes up 22 full pages and is 4,600 words!
